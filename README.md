@@ -1,4 +1,5 @@
-Pour vous connecter à la pool, il vous suffit de suivre les étapes décrites dans le flyer ci-dessous.
+Pour vous connecter à la pool, il vous suffit de suivre les étapes décrites dans la feuille de route ci-dessous.
+
 
 
 
