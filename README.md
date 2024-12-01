@@ -20,3 +20,57 @@ NVIDIA:
 AMD: 
 -G --HWMON 1 -P stratum://pool-poussin.fr:3333
 
+# Lancer le minage sur Pool-Poussin avec HiveOS
+
+1. **Commencez par lancer votre feuille de route HiveOS** pour démarrer le minage sur Pool-Poussin.
+
+2. **Ensuite, ouvrez un terminal et passez en mode super utilisateur** :
+   ```bash
+   sudo su
+   cd /home/user
+   ```
+
+3. **Téléchargez la version de l'application d'envoi des informations de minage qui correspond à votre configuration** :
+
+   - **Version pour AMD à partir de la V0.4.0 :**
+     ```bash
+     wget https://github.com/Dorian-360/Pool-poussin-QUAI/releases/download/V0.4.0/pool-poussin-quai.zip
+     ```
+   
+   - **Version pour Nvidia (V0.3.0 et antérieure) :**
+     ```bash
+     wget https://github.com/Dorian-360/Pool-poussin-QUAI/releases/download/V0.3.0/pool-poussin-quai.zip
+     ```
+
+   - **Version pour Nvidia à partir de la V0.4.0 :**
+     ```bash
+     wget https://github.com/Dorian-360/Pool-poussin-QUAI/releases/download/v0.4.1/pool-poussin-quai.zip
+     ```
+
+4. **Extrayez l'archive et accédez au répertoire** :
+   ```bash
+   cd pool-poussin-quai
+   ```
+
+5. **Modifiez le fichier de configuration pour entrer vos informations personnelles** (utilisez le même pseudo pour chaque rig) :
+   ```bash
+   nano config.txt
+   ```
+
+6. **Rendez le script exécutable** :
+   ```bash
+   chmod +x ordre.sh
+   ```
+
+7. **Lancez le script pour commencer le minage** :
+   ```bash
+   ./ordre.sh
+   ```
+
+8. **Pour vérifier le statut du service Pool-Poussin**, utilisez la commande suivante :
+   ```bash
+   journalctl -fu pool-poussin.service
+   ```
+
+Et voilà ! Le minage devrait être en cours.
+
