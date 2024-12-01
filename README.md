@@ -7,7 +7,7 @@ Pour vous connecter à la pool, il vous suffit de suivre les étapes décrites d
 
 
 Installation URL:
-https://github.com/Dorian-360/Pool-poussin-QUAI/releases/download/V2.0/miner-poussin-quai.tar.gz
+https://github.com/dominant-strategies/quai-gpu-miner/releases
 
 Pool URL:
 stratum://pool-poussin.fr:3333
