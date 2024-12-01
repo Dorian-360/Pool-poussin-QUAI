@@ -9,6 +9,7 @@ Il vous suffit de suivre les étapes décrites dans la feuille de route ci-desso
 ### Informations Générales
 
 - **Installation URL**: [Quai GPU Miner](https://github.com/dominant-strategies/quai-gpu-miner/releases)
+
 - **Pool URL**: `stratum://pool-poussin.fr:3333`
 
 - **Extra config arguments**:
@@ -47,19 +48,19 @@ Il vous suffit de suivre les étapes décrites dans la feuille de route ci-desso
    unzip pool-poussin-quai.zip
    ```
 
-5. **Accédez au répertoire extrait** :
+5. **Appliquez les permissions nécessaires au répertoire extrait** :
+   ```bash
+   chmod -R 777 pool-poussin-quai
+   ```
+
+6. **Accédez au répertoire extrait** :
    ```bash
    cd pool-poussin-quai
    ```
 
-6. **Modifiez le fichier de configuration pour entrer vos informations personnelles** (utilisez le même pseudo pour chaque rig) :
+7. **Modifiez le fichier de configuration pour entrer vos informations personnelles** (utilisez le même pseudo pour chaque rig) :
    ```bash
    nano config.txt
-   ```
-
-7. **Rendez le script exécutable** :
-   ```bash
-   chmod +x ordre.sh
    ```
 
 8. **Lancez le script pour commencer le minage** :
