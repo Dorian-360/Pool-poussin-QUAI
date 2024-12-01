@@ -1,26 +1,21 @@
-Pour vous connecter à la pool, il vous suffit de suivre les étapes décrites dans la feuille de route ci-dessous.
+# Lancer le minage sur Pool-Poussin avec HiveOS
 
+## Pour vous connecter à la pool
 
-
+Il vous suffit de suivre les étapes décrites dans la feuille de route ci-dessous.
 
 ![FS](https://github.com/user-attachments/assets/e584e4a7-b216-4b57-914c-d7fbff784b34)
 
+### Informations Générales
 
-Installation URL:
-https://github.com/dominant-strategies/quai-gpu-miner/releases
+- **Installation URL**: [Quai GPU Miner](https://github.com/dominant-strategies/quai-gpu-miner/releases)
+- **Pool URL**: `stratum://pool-poussin.fr:3333`
 
-Pool URL:
-stratum://pool-poussin.fr:3333
+- **Extra config arguments**:
+  - **NVIDIA**: `-U --HWMON 1 -P stratum://pool-poussin.fr:3333`
+  - **AMD**: `-G --HWMON 1 -P stratum://pool-poussin.fr:3333`
 
-Extra config arguments:
-
-NVIDIA: 
--U --HWMON 1 -P stratum://pool-poussin.fr:3333
-
-AMD: 
--G --HWMON 1 -P stratum://pool-poussin.fr:3333
-
-# Lancer le minage sur Pool-Poussin avec HiveOS
+## Étapes pour lancer le minage sur Pool-Poussin avec HiveOS
 
 1. **Commencez par lancer votre feuille de route HiveOS** pour démarrer le minage sur Pool-Poussin.
 
