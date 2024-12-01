@@ -47,27 +47,32 @@ AMD:
      wget https://github.com/Dorian-360/Pool-poussin-QUAI/releases/download/v0.4.1/pool-poussin-quai.zip
      ```
 
-4. **Extrayez l'archive et accédez au répertoire** :
+4. **Dézippez l'archive téléchargée** :
+   ```bash
+   unzip pool-poussin-quai.zip
+   ```
+
+5. **Accédez au répertoire extrait** :
    ```bash
    cd pool-poussin-quai
    ```
 
-5. **Modifiez le fichier de configuration pour entrer vos informations personnelles** (utilisez le même pseudo pour chaque rig) :
+6. **Modifiez le fichier de configuration pour entrer vos informations personnelles** (utilisez le même pseudo pour chaque rig) :
    ```bash
    nano config.txt
    ```
 
-6. **Rendez le script exécutable** :
+7. **Rendez le script exécutable** :
    ```bash
    chmod +x ordre.sh
    ```
 
-7. **Lancez le script pour commencer le minage** :
+8. **Lancez le script pour commencer le minage** :
    ```bash
    ./ordre.sh
    ```
 
-8. **Pour vérifier le statut du service Pool-Poussin**, utilisez la commande suivante :
+9. **Pour vérifier le statut du service Pool-Poussin**, utilisez la commande suivante :
    ```bash
    journalctl -fu pool-poussin.service
    ```
