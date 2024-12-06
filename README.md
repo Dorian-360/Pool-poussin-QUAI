@@ -73,7 +73,7 @@ Il vous suffit de suivre les étapes décrites dans la feuille de route ci-desso
    nano config.txt
    ```
 
-8. **Lancez le script pour commencer le minage** :
+8. **Lancez le script pour commencer à envoyer les informations au pool** :
 
    ```bash
    ./ordre.sh
