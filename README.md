@@ -44,7 +44,11 @@ Configurer vos paramètres pour **miner du Quai sur [pool-poussin.fr](https://po
      ```plaintext
      %WAL%.%WORKER_NAME%
      ```  
-
+   - **Pool Server:Port** :  
+     ```plaintext
+     stratum://pool-poussin.fr:3334
+     ```
+     
 3. **Extra Config Arguments**  
    Ajoutez les lignes suivantes selon votre type de carte graphique er remplacez **`PSEUDO`** par votre pseudo. Exemple :
 
