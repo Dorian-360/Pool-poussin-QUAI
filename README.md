@@ -26,7 +26,7 @@ Configurer vos paramètres pour **miner du Quai sur [pool-poussin.fr](https://po
      ```
 
 3. **Appliquer les changements**  
-   Cliquez sur **"Apply Changes"**
+   Cliquez sur **"Apply Changes"** et lancer votre feuille de route
 
 ---
 
@@ -40,28 +40,26 @@ Configurer vos paramètres pour **miner du Quai sur [pool-poussin.fr](https://po
 
 2. **Changer le pseudo**  
    - **Wallet et Worker Template** :  
-     Remplacez **`PSEUDO`** par votre pseudo. Exemple :  
+      
      ```plaintext
-     PSEUDO.%WAL%
+     %WAL%.%WORKER_NAME%
      ```  
 
 3. **Extra Config Arguments**  
-   Ajoutez les lignes suivantes selon votre type de carte graphique :
+   Ajoutez les lignes suivantes selon votre type de carte graphique er remplacez **`PSEUDO`** par votre pseudo. Exemple :
 
    - **Pour NVIDIA** :  
      ```plaintext
-     -U --HWMON 1 -P stratum://Dorian.%WAL%.%WORKER_NAME%:x@pool-poussin.fr:3334
+     -U --HWMON 1 -P stratum://PSEUDO.%WAL%.%WORKER_NAME%:x@pool-poussin.fr:3334
      ```
 
    - **Pour AMD** :  
      ```plaintext
-     -G --HWMON 1 -P stratum://Dorian.%WAL%.%WORKER_NAME%:x@pool-poussin.fr:3334
+     -G --HWMON 1 -P stratum://PSEUDO.%WAL%.%WORKER_NAME%:x@pool-poussin.fr:3334
      ```
 
 4. **Appliquer les changements**  
-   Cliquez sur **"Apply Changes"** comme indiqué sur l'image suivante :
-
-   ![Appliquer Changements Configuration Personnalisée](Capture d'écran%202024-12-16%20195631.png)
+   Cliquez sur **"Apply Changes"** et lancer votre feuille de route
 
 ---
 
