@@ -76,8 +76,4 @@ Une fois votre pseudo modifié et les paramètres appliqués :
 
 ---
 
-Ajoutez ce guide dans un fichier **README.md** sur votre dépôt **GitHub**. Placez également les captures d'écran dans le même dossier pour qu'elles s'affichent correctement.
-
----
-
 🚀 **Bon minage !**
