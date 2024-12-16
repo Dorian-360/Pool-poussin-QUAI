@@ -1,64 +1,81 @@
-📘 Tutoriel : Configuration SRBMiner et Mineur Officiel
-Objectif
-Configurer vos paramètres pour miner du Quai sur pool-poussin.fr en modifiant uniquement votre pseudo.
+# 📜 **Tutoriel : Configuration SRBMiner et Mineur Officiel**
 
-1. Configuration de SRBMiner-MULTI
-Ouvrez l'interface SRBMiner-MULTI
-Voici comment se présente la fenêtre de configuration :
+## **Objectif**  
+Configurer vos paramètres pour **miner du Quai sur [pool-poussin.fr](https://pool-poussin.fr/)** en modifiant uniquement votre **pseudo**.
 
-![SRBMiner-MULTI Configuration](Capture d'écran 2024-12-16 195502.png)
+---
 
-Changement du pseudo
+## **1. Configuration de SRBMiner-MULTI**
 
-Remplacez PSEUDO par votre propre pseudo dans le champ Wallet.
-Exemple :
-plaintext
-Copier le code
-Dorian.%WAL%
-Worker Name : Gardez %WORKER_NAME%.
-Pool Server:Port :
-plaintext
-Copier le code
-stratum://pool-poussin.fr:3334
-Appliquer les changements
-Cliquez sur "Apply Changes" comme indiqué ci-dessous :
+1. **Ouvrez l'interface SRBMiner-MULTI**  
+   Voici comment se présente la fenêtre de configuration :
 
-![Appliquer Changements SRBMiner](Capture d'écran 2024-12-16 195502.png)
+   ![SRBMiner-MULTI Configuration](Capture d'écran%202024-12-16%20195502.png)
 
-2. Configuration du Mineur Officiel
-Ouvrez l'interface de configuration du Mineur Officiel
-La fenêtre ressemble à ceci :
+2. **Changement du pseudo**  
+   - Remplacez **`PSEUDO`** par **votre propre pseudo** dans le champ **Wallet**.  
+     Exemple :  
+     ```plaintext
+     Dorian.%WAL%
+     ```
+   - **Worker Name** : Gardez `%WORKER_NAME%`.  
+   - **Pool Server:Port** :  
+     ```plaintext
+     stratum://pool-poussin.fr:3334
+     ```
 
-![Custom Configuration](Capture d'écran 2024-12-16 195631.png)
+3. **Appliquer les changements**  
+   Cliquez sur **"Apply Changes"** comme indiqué ci-dessous :
 
-Changer le pseudo
+   ![Appliquer Changements SRBMiner](Capture d'écran%202024-12-16%20195502.png)
 
-Wallet et Worker Template :
-Remplacez PSEUDO par votre pseudo. Exemple :
-plaintext
-Copier le code
-Dorian.%WAL%
-Extra Config Arguments
-Ajoutez les lignes suivantes selon votre type de carte graphique :
+---
 
-Pour NVIDIA :
+## **2. Configuration du Mineur Officiel**
 
-plaintext
-Copier le code
--U --HWMON 1 -P stratum://Dorian.%WAL%.%WORKER_NAME%:x@pool-poussin.fr:3334
-Pour AMD :
+1. **Ouvrez l'interface de configuration du Mineur Officiel**  
+   La fenêtre ressemble à ceci :
 
-plaintext
-Copier le code
--G --HWMON 1 -P stratum://Dorian.%WAL%.%WORKER_NAME%:x@pool-poussin.fr:3334
-Appliquer les changements
-Cliquez sur "Apply Changes" comme indiqué sur l'image suivante :
+   ![Custom Configuration](Capture d'écran%202024-12-16%20195631.png)
 
-![Appliquer Changements Configuration Personnalisée](Capture d'écran 2024-12-16 195631.png)
+2. **Changer le pseudo**  
+   - **Wallet et Worker Template** :  
+     Remplacez **`PSEUDO`** par votre pseudo. Exemple :  
+     ```plaintext
+     Dorian.%WAL%
+     ```  
 
-3. Résultat Final
+3. **Extra Config Arguments**  
+   Ajoutez les lignes suivantes selon votre type de carte graphique :
+
+   - **Pour NVIDIA** :  
+     ```plaintext
+     -U --HWMON 1 -P stratum://Dorian.%WAL%.%WORKER_NAME%:x@pool-poussin.fr:3334
+     ```
+
+   - **Pour AMD** :  
+     ```plaintext
+     -G --HWMON 1 -P stratum://Dorian.%WAL%.%WORKER_NAME%:x@pool-poussin.fr:3334
+     ```
+
+4. **Appliquer les changements**  
+   Cliquez sur **"Apply Changes"** comme indiqué sur l'image suivante :
+
+   ![Appliquer Changements Configuration Personnalisée](Capture d'écran%202024-12-16%20195631.png)
+
+---
+
+## **3. Résultat Final**
+
 Une fois votre pseudo modifié et les paramètres appliqués :
+1. **Démarrez votre mineur**.
+2. Vérifiez vos résultats sur le **pool de minage** :  
+   [pool-poussin.fr](https://pool-poussin.fr/).
 
-Démarrez votre mineur.
-Vérifiez vos résultats sur le pool de minage :
-pool-poussin.fr.
+---
+
+Ajoutez ce guide dans un fichier **README.md** sur votre dépôt **GitHub**. Placez également les captures d'écran dans le même dossier pour qu'elles s'affichent correctement.
+
+---
+
+🚀 **Bon minage !**
