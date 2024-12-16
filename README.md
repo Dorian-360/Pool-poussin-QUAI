@@ -10,7 +10,8 @@ Configurer vos paramètres pour **miner du Quai sur [pool-poussin.fr](https://po
 1. **Ouvrez l'interface SRBMiner-MULTI**  
    Voici comment se présente la fenêtre de configuration :
 
-   ![SRBMiner-MULTI Configuration](Capture d'écran%202024-12-16%20195502.png)
+   ![Capture d'écran 2024-12-16 195631](https://github.com/user-attachments/assets/dbff11c0-1de4-4833-b013-6033ce5f6045)
+
 
 2. **Changement du pseudo**  
    - Remplacez **`PSEUDO`** par **votre propre pseudo** dans le champ **Wallet**.  
@@ -36,7 +37,8 @@ Configurer vos paramètres pour **miner du Quai sur [pool-poussin.fr](https://po
 1. **Ouvrez l'interface de configuration du Mineur Officiel**  
    La fenêtre ressemble à ceci :
 
-   ![Custom Configuration](Capture d'écran%202024-12-16%20195631.png)
+  ![Capture d'écran 2024-12-16 195502](https://github.com/user-attachments/assets/bd1e2389-b301-4655-825f-397e13b1ae99)
+
 
 2. **Changer le pseudo**  
    - **Wallet et Worker Template** :  
