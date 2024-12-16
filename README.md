@@ -26,9 +26,7 @@ Configurer vos paramètres pour **miner du Quai sur [pool-poussin.fr](https://po
      ```
 
 3. **Appliquer les changements**  
-   Cliquez sur **"Apply Changes"** comme indiqué ci-dessous :
-
-   ![Appliquer Changements SRBMiner](Capture d'écran%202024-12-16%20195502.png)
+   Cliquez sur **"Apply Changes"**
 
 ---
 
