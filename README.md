@@ -38,7 +38,7 @@ Configurer vos paramètres pour **miner du Quai sur [pool-poussin.fr](https://po
   ![Capture d'écran 2024-12-16 195502](https://github.com/user-attachments/assets/bd1e2389-b301-4655-825f-397e13b1ae99)
 
 
-2. **Changer le pseudo**  
+2. **Changer le pseudo dans Extra Config Arguments**  
    - **Wallet et Worker Template** :  
       
      ```plaintext
