@@ -16,7 +16,7 @@ Configurer vos paramètres pour **miner du Quai sur [pool-poussin.fr](https://po
    - Remplacez **`PSEUDO`** par **votre propre pseudo** dans le champ **Wallet**.  
      Exemple :  
      ```plaintext
-     Dorian.%WAL%
+     PSEUDO.%WAL%
      ```
    - **Worker Name** : Gardez `%WORKER_NAME%`.  
    - **Pool Server:Port** :  
@@ -42,7 +42,7 @@ Configurer vos paramètres pour **miner du Quai sur [pool-poussin.fr](https://po
    - **Wallet et Worker Template** :  
      Remplacez **`PSEUDO`** par votre pseudo. Exemple :  
      ```plaintext
-     Dorian.%WAL%
+     PSEUDO.%WAL%
      ```  
 
 3. **Extra Config Arguments**  
