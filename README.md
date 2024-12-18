@@ -1,7 +1,7 @@
 
 ---
 
-## **2. Configuration du Mineur Officiel**
+## **1. Configuration du Mineur Officiel**
 
 1. **Ouvrez l'interface de configuration du Mineur Officiel**  
    La fenêtre ressemble à ceci :
@@ -37,7 +37,7 @@
 
 ---
 
-## **3. Résultat Final**
+## **2. Résultat Final**
 
 Une fois votre pseudo modifié et les paramètres appliqués :
 1. **Démarrez votre mineur**.
