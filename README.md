@@ -1,7 +1,29 @@
+# 📜 **Tutoriel : Configuration du Mineur Officiel**
+
+## **Objectif**
+
+Configurer vos paramètres pour **miner du Quai sur [pool-poussin.fr](https://pool-poussin.fr/)** en modifiant uniquement votre **pseudo**.
 
 ---
 
-## **1. Configuration du Mineur Officiel**
+## **1. Téléchargement du Mineur Officiel**
+
+### **Pour NVIDIA**
+
+- **Étape 1** : Téléchargez et installez la version **0.3.0** du mineur :
+https://github.com/dominant-strategies/quai-gpu-miner/releases/download/v0.3.0/quai-gpu-miner-v0.3.0.tar.gz
+
+- **Étape 2** : Ensuite, mettez à jour vers la version **0.4.1** :
+https://github.com/dominant-strategies/quai-gpu-miner/releases/download/v0.4.1/quai-gpu-miner-amd-v0.4.1.tar.gz
+
+### **Pour AMD**
+
+- **Téléchargez la version 0.4.1** du mineur pour AMD :
+https://github.com/dominant-strategies/quai-gpu-miner/releases/download/v0.4.1/quai-gpu-miner-amd-v0.4.1.tar.gz
+
+---
+
+## **2. Configuration du Mineur Officiel**
 
 1. **Ouvrez l'interface de configuration du Mineur Officiel**  
    La fenêtre ressemble à ceci :
@@ -37,7 +59,7 @@
 
 ---
 
-## **2. Résultat Final**
+## **3. Résultat Final**
 
 Une fois votre pseudo modifié et les paramètres appliqués :
 1. **Démarrez votre mineur**.
