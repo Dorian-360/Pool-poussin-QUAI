@@ -1,32 +1,3 @@
-# 📜 **Tutoriel : Configuration SRBMiner et Mineur Officiel**
-
-## **Objectif**  
-Configurer vos paramètres pour **miner du Quai sur [pool-poussin.fr](https://pool-poussin.fr/)** en modifiant uniquement votre **pseudo**.
-
----
-
-## **1. Configuration de SRBMiner-MULTI**
-
-1. **Ouvrez l'interface SRBMiner-MULTI**  
-   Voici comment se présente la fenêtre de configuration :
-
-   ![Capture d'écran 2024-12-16 195631](https://github.com/user-attachments/assets/dbff11c0-1de4-4833-b013-6033ce5f6045)
-
-
-2. **Changement du pseudo**  
-   - Remplacez **`PSEUDO`** par **votre propre pseudo** dans le champ **Wallet**.  
-     Exemple :  
-     ```plaintext
-     PSEUDO.%WAL%
-     ```
-   - **Worker Name** : Gardez `%WORKER_NAME%`.  
-   - **Pool Server:Port** :  
-     ```plaintext
-     stratum://pool-poussin.fr:3334
-     ```
-
-3. **Appliquer les changements**  
-   Cliquez sur **"Apply Changes"** et lancer votre feuille de route
 
 ---
 
@@ -35,35 +6,34 @@ Configurer vos paramètres pour **miner du Quai sur [pool-poussin.fr](https://po
 1. **Ouvrez l'interface de configuration du Mineur Officiel**  
    La fenêtre ressemble à ceci :
 
-  ![Capture d'écran 2024-12-16 195502](https://github.com/user-attachments/assets/bd1e2389-b301-4655-825f-397e13b1ae99)
-
+   ![Capture d'écran 2024-12-16 195502](https://github.com/user-attachments/assets/bd1e2389-b301-4655-825f-397e13b1ae99)
 
 2. **Changer le pseudo dans Extra Config Arguments**  
    - **Wallet et Worker Template** :  
-      
-     ```plaintext
+     ```
      %WAL%.%WORKER_NAME%
-     ```  
+     ```
+
    - **Pool Server:Port** :  
-     ```plaintext
+     ```
      stratum://pool-poussin.fr:3334
      ```
-     
+
 3. **Extra Config Arguments**  
-   Ajoutez les lignes suivantes selon votre type de carte graphique er remplacez **`PSEUDO`** par votre pseudo. Exemple :
+   Ajoutez les lignes suivantes selon votre type de carte graphique et remplacez **PSEUDO** par votre pseudo. Exemple :
 
    - **Pour NVIDIA** :  
-     ```plaintext
+     ```
      -U --HWMON 1 -P stratum://PSEUDO.%WAL%.%WORKER_NAME%:x@pool-poussin.fr:3334
      ```
 
    - **Pour AMD** :  
-     ```plaintext
+     ```
      -G --HWMON 1 -P stratum://PSEUDO.%WAL%.%WORKER_NAME%:x@pool-poussin.fr:3334
      ```
 
 4. **Appliquer les changements**  
-   Cliquez sur **"Apply Changes"** et lancer votre feuille de route
+   Cliquez sur **"Apply Changes"** et lancez votre feuille de route.
 
 ---
 
