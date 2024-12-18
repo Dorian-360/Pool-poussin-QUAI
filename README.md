@@ -6,9 +6,6 @@ Configurer vos paramètres pour **miner du Quai sur [pool-poussin.fr](https://po
 
 ---
 
-
----
-
 ## **1. Configuration de votre feuille de route hiveos**
 
 1. **Crée un mineur custom**  
