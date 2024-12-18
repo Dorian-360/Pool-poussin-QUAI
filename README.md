@@ -22,8 +22,9 @@ Configurer vos paramètres pour **miner du Quai sur [pool-poussin.fr](https://po
 ### **Pour AMD**
 
 - **Téléchargez la version 0.4.1** du mineur pour AMD :
-https://github.com/dominant-strategies/quai-gpu-miner/releases/download/v0.4.1/quai-gpu-miner-amd-v0.4.1.tar.gz
-
+   ```
+   https://github.com/dominant-strategies/quai-gpu-miner/releases/download/v0.4.1/quai-gpu-miner-amd-v0.4.1.tar.gz
+   ```
 ---
 
 ## **2. Configuration du Mineur Officiel**
