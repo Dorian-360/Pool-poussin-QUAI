@@ -6,11 +6,21 @@ Configurer vos paramètres pour **miner du Quai sur [pool-poussin.fr](https://po
 
 ---
 
-## **1. Téléchargement du Mineur Officiel**
+
+---
+
+## **1. Configuration de votre feuille de route hiveos**
+
+1. **Crée un mineur custom**  
+   La fenêtre ressemble à ceci :
+
+   ![Capture d'écran 2024-12-16 195502](https://github.com/user-attachments/assets/bd1e2389-b301-4655-825f-397e13b1ae99)
+
+2. **Mettre le lien installation URL**
 
 ### **Pour NVIDIA**
 
-- **Étape 1** : Téléchargez et installez la version **0.3.0** du mineur :
+- **Étape 1** : Lancer avec la version **0.3.0** du mineur :
    ```
    https://github.com/dominant-strategies/quai-gpu-miner/releases/download/v0.3.0/quai-gpu-miner-v0.3.0.tar.gz
    ```
@@ -21,20 +31,11 @@ Configurer vos paramètres pour **miner du Quai sur [pool-poussin.fr](https://po
 
 ### **Pour AMD**
 
-- **Téléchargez la version 0.4.1** du mineur pour AMD :
+- **Lancer avec la version 0.4.1** du mineur pour AMD :
    ```
    https://github.com/dominant-strategies/quai-gpu-miner/releases/download/v0.4.1/quai-gpu-miner-amd-v0.4.1.tar.gz
    ```
----
-
-## **2. Configuration du Mineur Officiel**
-
-1. **Ouvrez l'interface de configuration du Mineur Officiel**  
-   La fenêtre ressemble à ceci :
-
-   ![Capture d'écran 2024-12-16 195502](https://github.com/user-attachments/assets/bd1e2389-b301-4655-825f-397e13b1ae99)
-
-2. **Changer le pseudo dans Extra Config Arguments**  
+3. **le pseudo se trouve dans Extra Config Arguments**  
    - **Wallet et Worker Template** :  
      ```
      %WAL%.%WORKER_NAME%
@@ -45,7 +46,7 @@ Configurer vos paramètres pour **miner du Quai sur [pool-poussin.fr](https://po
      stratum://pool-poussin.fr:3334
      ```
 
-3. **Extra Config Arguments**  
+4. **Extra Config Arguments**  
    Ajoutez les lignes suivantes selon votre type de carte graphique et remplacez **PSEUDO** par votre pseudo. Exemple :
 
    - **Pour NVIDIA** :  
