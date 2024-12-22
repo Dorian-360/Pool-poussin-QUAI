@@ -23,7 +23,7 @@ Configurer vos paramètres pour **miner du Quai sur [pool-poussin.fr](https://po
    ```
    - **Étape 2** : Ensuite, mettez à jour vers la version **0.4.1** :
 ```
-  https://github.com/dominant-strategies/quai-gpu-miner/releases/download/v0.4.1/quai-gpu-miner-amd-v0.4.1.tar.gz
+  https://github.com/dominant-strategies/quai-gpu-miner/releases/download/v0.4.1/quai-gpu-miner-nvidia-v0.4.1.tar.gz
 ```
 
 ### **Pour AMD**
