@@ -66,7 +66,7 @@ Une fois les paramètres appliqués :
 3. Vous avez la possibilité de modifier vos propres paramètre de minage directement dans Menu => Settings de votre Dashboard:
    -✅ Minimum Payout
    -✅ Définir un pseudo (pour faciliter l'accès au dashboard sur mobile)
-   -✅ Supprimer les workers inutiles (leurs gains sont conservés)
+
 ---
 ![Capture d'écran 2025-02-12 112022](https://github.com/user-attachments/assets/18f7480e-0028-47c7-a42e-b2538cde76b0)
 
