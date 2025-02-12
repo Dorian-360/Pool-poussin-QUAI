@@ -2,7 +2,7 @@
 
 ## **Objectif**
 
-Configurer vos paramètres pour **miner du Quai sur [pool-poussin.fr](https://pool-poussin.fr/)** en modifiant uniquement votre **pseudo**.
+Configurer vos paramètres pour **miner du Quai sur [pool-poussin.fr](https://pool-poussin.fr/)**.
 
 ---
 
