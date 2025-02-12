@@ -17,7 +17,7 @@ Configurer vos paramètres pour **miner du Quai sur [pool-poussin.fr](https://po
 
 ### **Pour NVIDIA**
 
-   - **Lancer avec la version **0.5.0** du mineur :
+   - **Lancer avec la version 0.5.0** du mineur :
    ```
    https://github.com/dominant-strategies/quai-gpu-miner/releases/download/v0.5.0/quai-gpu-miner-nvidia-v0.5.0.tar.gz
    ```
