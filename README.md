@@ -11,28 +11,24 @@ Configurer vos paramètres pour **miner du Quai sur [pool-poussin.fr](https://po
 1. **Crée un mineur custom**  
    La fenêtre ressemble à ceci :
 
-   ![Capture d'écran 2024-12-16 195502](https://github.com/user-attachments/assets/bd1e2389-b301-4655-825f-397e13b1ae99)
+![Capture d'écran 2025-02-12 110959](https://github.com/user-attachments/assets/46ed2be3-05c1-45f4-9a4d-c2ecaf2f5bec)
 
 2. **Mettre le lien installation URL**
 
 ### **Pour NVIDIA**
 
-   - **Étape 1** : Lancer avec la version **0.3.0** du mineur :
+   - **Lancer avec la version **0.5.0** du mineur :
    ```
-   https://github.com/dominant-strategies/quai-gpu-miner/releases/download/v0.3.0/quai-gpu-miner-v0.3.0.tar.gz
+   https://github.com/dominant-strategies/quai-gpu-miner/releases/download/v0.5.0/quai-gpu-miner-nvidia-v0.5.0.tar.gz
    ```
-   - **Étape 2** : Ensuite, mettez à jour vers la version **0.4.1** :
-```
-  https://github.com/dominant-strategies/quai-gpu-miner/releases/download/v0.4.1/quai-gpu-miner-nvidia-v0.4.1.tar.gz
-```
 
 ### **Pour AMD**
 
-   - **Lancer avec la version 0.4.1** du mineur pour AMD :
+   - **Lancer avec la version 0.5.0** du mineur pour AMD :
    ```
-   https://github.com/dominant-strategies/quai-gpu-miner/releases/download/v0.4.1/quai-gpu-miner-amd-v0.4.1.tar.gz
+   https://github.com/dominant-strategies/quai-gpu-miner/releases/download/v0.5.0/quai-gpu-miner-amd-v0.5.0.tar.gz
    ```
-3. **le pseudo se trouve dans Extra Config Arguments**  
+3. **Suite de la feuille de route**  
    - **Wallet et Worker Template** :  
      ```
      %WAL%.%WORKER_NAME%
@@ -40,20 +36,20 @@ Configurer vos paramètres pour **miner du Quai sur [pool-poussin.fr](https://po
 
    - **Pool Server:Port** :  
      ```
-     stratum://pool-poussin.fr:3334
+     stratum://pool-poussin.fr:3335
      ```
 
 4. **Extra Config Arguments**  
-   Ajoutez les lignes suivantes selon votre type de carte graphique et remplacez **PSEUDO** par votre pseudo. Exemple :
+   Ajoutez les lignes suivantes selon votre type de carte graphique Exemple :
 
    - **Pour NVIDIA** :  
      ```
-     -U --HWMON 1 -P stratum://PSEUDO.%WAL%.%WORKER_NAME%:x@pool-poussin.fr:3334
+     -U --HWMON 1 -P stratum://PSEUDO.%WAL%.%WORKER_NAME%:x@pool-poussin.fr:3335
      ```
 
    - **Pour AMD** :  
      ```
-     -G --HWMON 1 -P stratum://PSEUDO.%WAL%.%WORKER_NAME%:x@pool-poussin.fr:3334
+     -G --HWMON 1 -P stratum://PSEUDO.%WAL%.%WORKER_NAME%:x@pool-poussin.fr:3335
      ```
 
 4. **Appliquer les changements**  
