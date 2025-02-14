@@ -44,12 +44,12 @@ Configurer vos paramètres pour **miner du Quai sur [pool-poussin.fr](https://po
 
    - **Pour NVIDIA** :  
      ```
-     -U --HWMON 1 -P stratum://PSEUDO.%WAL%.%WORKER_NAME%:x@pool-poussin.fr:3335
+     -U --HWMON 1 -P stratum://%WAL%.%WORKER_NAME%:x@pool-poussin.fr:3335
      ```
 
    - **Pour AMD** :  
      ```
-     -G --HWMON 1 -P stratum://PSEUDO.%WAL%.%WORKER_NAME%:x@pool-poussin.fr:3335
+     -G --HWMON 1 -P stratum://%WAL%.%WORKER_NAME%:x@pool-poussin.fr:3335
      ```
 
 4. **Appliquer les changements**  
