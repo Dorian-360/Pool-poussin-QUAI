@@ -1,4 +1,5 @@
-✨ Wallet de Donation ✨
+### 💰 Wallet de Donation
+
 Si vous souhaitez soutenir notre pool, vous pouvez envoyer vos donations à l'adresse suivante :
 ```
 0x0032F4AeC9a9Dae02272FD9C9aFA10578bfca2F8
