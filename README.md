@@ -1,3 +1,7 @@
+**Wallet de Donation**:
+```
+0x0032F4AeC9a9Dae02272FD9C9aFA10578bfca2F8
+```
 # 📜 **Tutoriel : Configuration du Mineur Officiel**
 
 ## **Objectif**
